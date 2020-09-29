@@ -1,21 +1,65 @@
 <html>
-    <head>
-        <title>Form</title>
-    </head>
-    <body>
+
+<head>
+    <title>Form</title>
+    <style>
+      body{
+          background-image: url("Frontpage.jpg");
+      }
+
+        #one{
+            background-color: black;
+            
+            text-align: center;
+            width:400px;
+            margin-left: 450px;
+            padding: 30px;
+            margin-top: 100px;
+            margin-right: 500px;
+            width: 300px;
+            border-style: groove;
+            border-width: 6px;
+            border-color:red;
+            border-radius: 40px;
+        
+            
+
+
+ }
+ label{
+     font-weight: bold;
+     font-style: italic;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:white;
+ }
+ #two{
+     color:white;
+     font-size: 30px;
+ }
+
+    </style>
+</head>
+
+<body>
+    <div id="one">
+        <h4 id="two">Sign Up</h4>
         <form action="/new.php" method="get">
             <label>UserName:</label>
-            <input type="text" placeholder="username" required="true"/><br><br>
+            <input type="text" placeholder="username" required="true" /><br><br>
             <label>Password:</label>
-            <input type="password" placeholder="password" required="true"/><br><br>
+            <input type="password" placeholder="password" required="true" /><br><br>
             <label>Email:</label>
-            <input type="email"placeholder="email" required="true"/><br><br>
+            <input type="email" placeholder="email" required="true" /><br><br>
             <label>Mobile Number:</label>
-            <input type="number" placeholder="Mobile Number" required="true"<br><br>
-        
-            <input type="button" value="submit"/>
-            
+            <input type="number" placeholder="Mobile Number" required="true" <br><br>
+
+            <input type="button" value="submit" />
+
+
         </form>
-        
-    </body>
+    </div>
+
+
+</body>
+
 </html>
